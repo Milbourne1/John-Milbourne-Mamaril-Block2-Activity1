@@ -27,6 +27,14 @@ class MainActivity : AppCompatActivity() {
             txtNumber.text = (firstNumber.text.toString().toInt()+secondNumber.text.toString().toInt()+thirdNumber.text.toString
                 ().toInt()+fourthNumber.text.toString().toInt()).toString()
         }
+        btnSubtract.setOnClickListener {
+            txtNumber.text = (firstNumber.text.toString().toInt()-secondNumber.text.toString().toInt()-thirdNumber.text.toString
+                ().toInt()-fourthNumber.text.toString().toInt()).toString()
+        }
+        btnMultiply.setOnClickListener {
+            txtNumber.text = (firstNumber.text.toString().toInt()*secondNumber.text.toString().toInt()*thirdNumber.text.toString
+                ().toInt()*fourthNumber.text.toString().toInt()).toString()
+        }
 
 
 
