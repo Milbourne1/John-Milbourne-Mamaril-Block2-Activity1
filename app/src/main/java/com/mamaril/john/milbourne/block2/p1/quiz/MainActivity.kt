@@ -35,6 +35,10 @@ class MainActivity : AppCompatActivity() {
             txtNumber.text = (firstNumber.text.toString().toInt()*secondNumber.text.toString().toInt()*thirdNumber.text.toString
                 ().toInt()*fourthNumber.text.toString().toInt()).toString()
         }
+        btnDivide.setOnClickListener {
+            txtNumber.text = (firstNumber.text.toString().toInt()/secondNumber.text.toString().toInt()/thirdNumber.text.toString
+                ().toInt()-fourthNumber.text.toString().toInt()).toString()
+        }
 
 
 
