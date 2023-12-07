@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    android:backgroundTint="#D898E3"
+    android:backgroundTint="#9CB182"
     tools:context=".MainActivity">
 
 
@@ -69,13 +69,13 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.493" />
+        app:layout_constraintVertical_bias="0.478" />
 
     <Button
         android:id="@+id/btn_Add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#E91E63"
+        android:backgroundTint="#2D7330"
         android:text="add"
         app:layout_constraintBottom_toTopOf="@+id/btn_Multiply"
         app:layout_constraintEnd_toStartOf="@+id/btn_Subtract"
@@ -88,7 +88,7 @@
         android:id="@+id/btn_Subtract"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#E91E63"
+        android:backgroundTint="#FF2D7330"
         android:text="subtract"
         app:layout_constraintBottom_toTopOf="@+id/btn_Divide"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,7 +101,7 @@
         android:id="@+id/btn_Multiply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#E91E63"
+        android:backgroundTint="#FF2D7330"
         android:text="multiply"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_Divide"
@@ -114,7 +114,7 @@
         android:id="@+id/btn_Divide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#E91E63"
+        android:backgroundTint="#FF2D7330"
         android:text="divide"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
