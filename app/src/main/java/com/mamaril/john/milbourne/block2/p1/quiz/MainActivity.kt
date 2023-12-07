@@ -20,5 +20,15 @@ class MainActivity : AppCompatActivity() {
         val btnMultiply: Button = findViewById(R.id.btn_Multiply)
         val btnDivide: Button = findViewById(R.id.btn_Divide)
         val txtNumber: TextView = findViewById(R.id.txt_Number)
+
+        txtNumber.text = ("Hello g").toString()
+
+        btnAdd.setOnClickListener {
+            txtNumber.text = (firstNumber.text.toString().toInt()+secondNumber.text.toString().toInt()+thirdNumber.text.toString
+                ().toInt()+fourthNumber.text.toString().toInt()).toString()
+        }
+
+
+
     }
 }
